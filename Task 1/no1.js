@@ -3,17 +3,49 @@ const biodata = {
  age  : "19" ,
  hobbies: ['Travelling', 'watchingmovies'],
  ismarried: false,
- schoolist:  {
-    name: "ITTP",
+ schoolist:  [
+   {
+    name: "TK SANTA MARIA",
     yearin: "2017",
     yearout: "2022",
-    major: "Informatika",
+    major: undefined,
     },
- Skills:{
-    skillsName: ['HTML','CSS'],
-    level : "beginner",
+    {
+      name: "SD SANTA MARIA",
+      yearin: "2017",
+      yearout: "2022",
+      major: undefined,
+      },
+      {
+         name: "SMP SANTA MARIA",
+         yearin: "2017",
+         yearout: "2022",
+         major: "Informatika",
+         },
+         {
+            name: "SMK N 1 Purwokerto",
+            yearin: "2017",
+            yearout: "2022",
+            major: "Informatika",
+            },
+            {
+               name: "ITTP",
+               yearin: "2017",
+               yearout: "2022",
+               major: "Informatika",
+               },
+   ],
+ Skills:[
+   {
+    skillsName: "HTML",
+    level : "advance",
 
  },
+ {
+   skillsname:"CSS",
+   level : "advance",
+ },
+],
  interescoding: true,
 };
 console.log(biodata);
