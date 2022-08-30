@@ -1,6 +1,6 @@
 const getMonth = (callback) =>{
     setTimeout(() => {
-        let error = false
+        let error = true
         let month = ['Januari','Februari','Maret','April',
         'Mei','Juni','Juli','Agustus','September',
         'Oktober','November','Desember']
@@ -12,7 +12,13 @@ const getMonth = (callback) =>{
     },4000)
 }
  function showMonth (kosong,arrayMonth) {
-    console.log(kosong)
-    const newmonth = arrayMonth.map((element)=>{console.log(element)}) 
+    if(arrayMonth.length > 0){
+        const list = arrayMonth.map(result => console.log(result))
+
+    } else{
+        console.log(kosong)   
+    }
+    // console.log(kosong)
+    // const newmonth = arrayMonth.map((element)=>{console.log(element)}) 
  }
 getMonth(showMonth)
