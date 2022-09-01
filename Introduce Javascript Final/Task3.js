@@ -126,7 +126,7 @@ function fazzfood(harga,voucher,jarak,pajak){
 }
     
     
-    fazzfood(26000, 'DITRAKTIR60', 5, true);
+    fazzfood(26000, 'DITRAKTIR60',5, true);
 // input harga voucher,jarak, dan pajak
 // if pertama mendeteksi harga dan voucher
 // if kedua mendeteksi pajak
